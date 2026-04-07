@@ -1,0 +1,8 @@
+node_modules
+dist
+.vite
+package
+*.tgz
+*.log
+logs
+.playwright-cli

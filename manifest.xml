@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JsPlugin>
+  <ApiVersion>1.0.0</ApiVersion>
+  <Name>智能排版助手</Name>
+  <Description>面向 WPS 文字的自然语言与规范文件排版助手</Description>
+</JsPlugin>

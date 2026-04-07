@@ -1,0 +1,22 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui" onLoad="OnAddinLoad">
+  <ribbon startFromScratch="false">
+    <tabs>
+      <tab id="wpsFormatterTab" label="智能排版助手">
+        <group id="wpsFormatterGroup" label="文档排版">
+          <button
+            id="btnOpenFormatter"
+            label="打开排版助手"
+            onAction="OnAction"
+            getImage="GetImage"
+            size="large"/>
+          <button
+            id="btnAnalyzeFormatter"
+            label="分析当前文档"
+            onAction="OnAction"
+            getImage="GetImage"
+            size="large"/>
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
